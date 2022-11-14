@@ -663,7 +663,90 @@ body {
   line-height: calc(14 / 12);
 }
 
-/* filter section on portfolio page */
+.contact-modal-form-message {
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  resize: none;
+  outline: none;
+}
+
+.contact-modal-form-message::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc (14 / 12);
+
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.contact-modal-form-message:focus {
+  border-color: var(--blue);
+}
+
+.contact-modal-form-checkbox-label {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+
+  color: var(--text-color-gray);
+}
+
+.contact-modal-form-checkbox-label::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+
+  margin-right: 7px;
+
+  border: 2px solid var(--color-black);
+  border-radius: 2px;
+
+  cursor: pointer;
+}
+
+.contact-modal-form-checkbox:checked + .contact-modal-form-checkbox-label::before {
+  background-color: var(--blue);
+  border-color: var(--blue);
+  background-image: url('../images/tick.svg');
+  background-size: cover;
+
+  padding: auto;
+}
+
+.contact-modal-btn {
+  padding: 10px 55px;
+  align-self: center;
+  border: none;
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--color-white);
+  background-color: var(--blue);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-modal-btn:hover,
+.contact-modal-btn:focus {
+  background-color: var(--blue-h-f);
+}
+
+/* ===================== filter section on portfolio page ========================= */
 .filter {
 }
 
