@@ -539,7 +539,7 @@ body {
   color: var(--color-white);
 }
 
-.social-link-subtitle {
+.footer-subtitle {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -548,6 +548,62 @@ body {
 
   text-transform: uppercase;
   color: var(--color-white);
+}
+
+.footer-subscribe-form {
+  margin-bottom: 94px;
+  margin-left: 94px;
+}
+
+.footer-subscribe-btn {
+  padding: 13px 28px;
+  align-items: center;
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--color-white);
+  background-color: var(--blue);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: var(--blue-h-f);
+}
+
+.footer-subscribe-input {
+}
+
+.footer-subscribe-button-icon {
+  fill: var(--color-white);
+  margin-left: 10px;
+}
+
+.footer-subscribe-input::placeholder {
+  padding-top: 5px;
+}
+
+.footer-subscribe-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-input:focus {
+  outline: none;
+  border-color: var(--blue);
 }
 
 /* ================= modal window ======================= */
