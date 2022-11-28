@@ -233,6 +233,7 @@ body {
 }
 
 .hero-btn {
+  width: 200px;
   padding: 10px 32px;
   border: none;
   margin-top: 30px;
@@ -557,7 +558,9 @@ body {
 .footer-subscribe-btn {
   display: flex;
 
+  width: 200px;
   padding: 10px 28px;
+  align-items: center;
   justify-content: center;
   border: none;
 
@@ -601,6 +604,7 @@ body {
   border-radius: 4px;
 
   background-color: var(--dark-bg);
+  color: var(--color-white);
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -612,6 +616,7 @@ body {
 
 .footer-subscribe-box {
   display: flex;
+  gap: 10px;
 }
 
 .footer-subscribe-box-item:last-child {
@@ -732,6 +737,7 @@ body {
 }
 
 .contact-modal-form-message {
+  display: block;
   width: 100%;
   height: 120px;
   padding: 12px 16px;
@@ -797,7 +803,6 @@ body {
   padding: 10px 55px;
   align-self: center;
   border: none;
-  margin-bottom: 40px;
 
   font-weight: 700;
   font-size: 16px;
